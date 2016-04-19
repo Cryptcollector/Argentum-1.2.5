@@ -37,7 +37,7 @@ uint256 hashGenesisBlock("0x88c667bc63167685e4e4da058fffdfe8e007e5abffd6855de52a
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Argentum: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
-int DGW3_Start_Block = 1630000;
+int DGW3_Start_Block = 15000000;
 CBigNum bnBestChainWork = 0;
 CBigNum bnBestInvalidWork = 0;
 uint256 hashBestChain = 0;
@@ -1071,7 +1071,7 @@ unsigned int static DarkGravityWave3(const CBlockIndex* pindexLast, const CBlock
 unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlock *pblock)
 {
 
-        if (pindexBest->nHeight >= DGW3_Start_Block) {
+        if (pindexLast->nHeight+1 >= DGW3_Start_Block); {
 			return DarkGravityWave3(pindexLast, pblock);
         }
 
