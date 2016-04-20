@@ -1153,7 +1153,7 @@ static const char *strDNSSeed[][2] = {
      {"arg1.seed.nodes.mywl.lt", "arg1.seed.nodes.mywl.lt"},
      {"arg2.seed.nodes.mywl.lt", "arg2.seed.nodes.mywl.lt"},
      {"arg3.seed.nodes.mywl.lt", "arg3.seed.nodes.mywl.lt"},
-	 {"arg4.seed.nodes.mywl.lt", "arg4.seed.nodes.mywl.lt"},
+     {"arg4.seed.nodes.mywl.lt", "arg4.seed.nodes.mywl.lt"},
 };
 
 void ThreadDNSAddressSeed(void* parg)
