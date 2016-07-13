@@ -1,3 +1,4 @@
+
 Copyright bitcoin, litecoin, digitalcoin, argentum developers 2013.
 
 Website: ARGCurrency.Org
